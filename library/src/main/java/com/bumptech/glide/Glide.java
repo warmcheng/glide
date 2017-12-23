@@ -157,6 +157,7 @@ public class Glide implements ComponentCallbacks2 {
       synchronized (Glide.class) {
         if (glide == null) {
           checkAndInitializeGlide(context);
+          
         }
       }
     }
